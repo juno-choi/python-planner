@@ -12,6 +12,7 @@ class Event(BaseModel):
     class Config:
         json_schema_extra = {
             "example" : {
+                "id": "1",
                 "title": "제목",
                 "image": "https://linktomyimage.com/image.png",
                 "description": "설명~~~",
